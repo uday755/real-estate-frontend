@@ -60,7 +60,7 @@ const Navbar = () => {
               <div className="text-xl font-bold">
                 RENT
                 <span className="text-secondary-500 font-light hover:!text-primary-300">
-                  IFUL
+                  HOME
                 </span>
               </div>
             </div>
@@ -164,7 +164,7 @@ const Navbar = () => {
                   variant="outline"
                   className="text-white border-white bg-transparent hover:bg-white hover:text-primary-700 rounded-lg"
                 >
-                  Sign In
+                  Login
                 </Button>
               </Link>
               <Link href="/signup">
@@ -172,7 +172,7 @@ const Navbar = () => {
                   variant="secondary"
                   className="text-white bg-secondary-600 hover:bg-white hover:text-primary-700 rounded-lg"
                 >
-                  Sign Up
+                  Register
                 </Button>
               </Link>
             </>
